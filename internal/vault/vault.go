@@ -17,11 +17,11 @@ type VaultSecret struct {
 	UserID int    // who added it
 }
 
-// Encryption key (32 bytes) — replace with env var in production
+// Encryption key
 var key [32]byte
 
 func init() {
-	// Generate random key for demo purposes (in prod, load from env or vault)
+	// Generate random key
 	if _, err := rand.Read(key[:]); err != nil {
 		panic(err)
 	}
