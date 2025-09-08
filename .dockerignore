@@ -1,5 +1,0 @@
-# Ignore local files
-*.log
-*.env
-bin/
-vendor/
