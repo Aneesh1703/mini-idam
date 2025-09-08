@@ -1,0 +1,6 @@
+# Ignore Go binaries and logs
+*.log
+*.exe
+*.env
+bin/
+vendor/
